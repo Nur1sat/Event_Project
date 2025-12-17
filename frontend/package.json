@@ -1,7 +1,12 @@
 {
+<<<<<<< HEAD
   "name": "jihc-clubs-frontend",
   "version": "1.0.0",
   "private": true,
+=======
+  "name": "jihclubs-frontend",
+  "version": "1.0.0",
+>>>>>>> 694dc7c (the_last_update)
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.6.2",
     "pinia": "^2.1.7",
     "vue": "^3.3.8",
@@ -17,5 +23,20 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.3",
     "vite": "^7.3.0"
+=======
+    "axios": "^1.13.2",
+    "pinia": "^2.1.7",
+    "three": "^0.160.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
+>>>>>>> 694dc7c (the_last_update)
   }
 }

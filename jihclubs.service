@@ -1,0 +1,17 @@
+[Unit]
+Description=JIHClubs Fullstack Application Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/jihclubs
+ExecStart=/bin/bash /root/jihclubs/start-all.sh
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+
